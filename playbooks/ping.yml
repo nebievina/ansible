@@ -1,0 +1,8 @@
+# ping.yml
+---
+  - hosts: all
+    tasks:
+      - name: Ping all the servers
+        action: ping
+
+        
